@@ -1,0 +1,63 @@
+@media (max-width: 1190px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    .huddle {
+        padding: 40px 0;
+    }
+
+    .huddle img {
+        margin: 0;
+        width: 150px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container img {
+        margin: 0;
+    }
+
+    .container .informations .tittle {
+        font-size: 1.5rem;
+    }
+
+    .container .informations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .container .informations .text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .container .informations .register {
+       margin-right: 0;
+       width: 60%;
+    }
+
+    .rodape {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .rodape a i {
+        font-size: 1.5rem;
+        margin: 15px;
+    }
+
+}
